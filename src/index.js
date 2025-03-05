@@ -2,6 +2,7 @@ import "./styles.css";
 
 const dropdownMenu = document.querySelector(".dropdown-menu");
 const dropdownButton = document.querySelector(".dropdown-root");
+const dropdownRootText = document.querySelector(".dropdown-button");
 const dropdownList = document.querySelector(".dropdown-list");
 const dropdownOption = document.querySelectorAll(".dd-option");
 
@@ -29,7 +30,8 @@ dropdownOption.forEach((button) => {
 
 dropdownOption.forEach((button) => {
     button.addEventListener('click', () => {
-        //CLICK BEHAVIOR
+        dropdownRootText.textContent = button.textContent;
+        //can CHANGE THIS BEHAVIOR IF YOU WANT
     })
 })
 

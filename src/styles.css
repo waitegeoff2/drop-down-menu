@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu {
+    width: 130px;
+}
+
+.dropdown-root {
+    display: flex;
+    padding: 3px;
+    border: 1px solid black;
+    height: 20px;
+    background-color: rgb(99, 99, 99);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.dropdown-list {
+    list-style: none;
+    opacity: 0;
+    border-radius: 4px;
+    background-color: rgb(99, 99, 99);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.dd-option {
+    padding: 3px;
+}
+
+.dropdown-visible {
+    opacity: 100;
+    list-style: none;
+    border-radius: 4px;
+    background-color: rgb(99, 99, 99);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.dropdown-hover {
+    background-color: rgb(65, 65, 65);;
+}
+
